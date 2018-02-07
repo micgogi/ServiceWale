@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Service Wale</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">SERVICE WALE</string>
+    <string name="backdrop_subtitle">Think Different</string>
+    <string name="head"><u>Pricing</u></string>
+    <string name="txt_dummy">• FIxed charges for installation, uninstallation and servicing</string>
+    <string name="tac"><u>Terms and Conditions</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Folks!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Laundry</string>
+    <string name="slide_2_desc">we have home pick up and delievery services</string>
+
+    <string name="slide_3_title">Car Wash</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">Cook</string>
+    <string name="slide_4_desc">We are providing a list of best Cooks</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rahul.servicewale.CheckOut">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Order"
+        android:textSize="25sp"
+        android:layout_marginTop="42dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="118dp"
+        android:layout_marginEnd="118dp"
+        android:id="@+id/your_order" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delievery Details"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/your_order"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp"
+        android:id="@+id/deliever_details" />
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/deliever_details"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="27dp"
+            android:hint="Enetr your address"
+            android:inputType="textCapWords" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here your order"
+        android:layout_centerVertical="true"
+        android:id="@+id/order_deatils"
+        android:layout_alignLeft="@+id/deliever_details"
+        android:layout_alignStart="@+id/deliever_details" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_cost"
+        android:text="total cost"
+        android:layout_below="@+id/order_deatils"
+        android:layout_alignLeft="@+id/order_deatils"
+        android:layout_alignStart="@+id/order_deatils"
+        android:layout_marginTop="23dp" />
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:text="CheckOut"
+         android:id="@+id/checkout"
+         android:background="@color/colorPrimary"
+         android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

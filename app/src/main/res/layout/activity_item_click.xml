@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.rahul.servicewale.ItemClickActivity">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/c_top_image"
+        android:src="@drawable/topimg3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/head"
+        android:layout_marginLeft="151dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/c_top_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/textView" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_dummy"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_dummy"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_dummy"
+        android:textSize="16sp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="5dp"
+        android:id="@+id/view" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tac"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:id="@+id/tac"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tac"
+        android:text="@string/txt_dummy"
+        android:textSize="16sp"
+        android:id="@+id/t1"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:text="@string/txt_dummy"
+        android:id="@+id/t2"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t2"
+        android:text="@string/txt_dummy"
+        android:id="@+id/t3"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/call_us"
+        android:text="BOOK SERVICE"
+        android:layout_below="@id/t3"
+        android:layout_marginTop="5dp"/>
+
+
+
+</RelativeLayout>
+
+
+</ScrollView>
